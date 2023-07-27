@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vedio</title>
+	<style>
+	  *{
+	  	margin: 0;
+	  	padding: 0;
+	  }
+	  #vid{
+	  	margin: 0 auto;
+	  	width: 600px;
+	  	height: 500px;
+	  	padding: 20px;
+	  }
+	  #can{
+	  	width: 900px;
+	  	height: 600px;
+	  	margin: 0 auto;
+	  }
+      #myCanvas{
+      	border: 1px solid black;
+      }
+      a{
+      	text-decoration: none;
+      	font-family: 楷体;
+      	font-size: 20px;
+      	margin: 20px 100px 20px 0px;
+        border: 1px solid #9cb8c6;
+        background-color: #9cb8c6;
+      }
+
+	</style>
+</head>
+<body>
+    <a href="index_宝石.html">返回主页</a>
+    <div id="vid">
+      <video width="520" height="440" controls="controls" autoplay="autoplay">
+      <source src="data/炫目珠宝宣传片.mp4" type="video/mp4" />
+      </video>
+    </div>
+	<div id="can">
+       <canvas id="myCanvas" width="800" height="500">手绘板</canvas>
+	</div>
+</body>
+<script src="js/画布.js">
+  
+</script>
+</html>

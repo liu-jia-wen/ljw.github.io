@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 楷体;
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 2em;
+}
+nav{
+	width: 100%;
+	height: 30px;
+	position: fixed;
+	background-color: #f4fbf6;
+}
+ul,ol{
+	list-style: none;
+}
+.hli{
+	float: left;
+	margin:0px 10px 10px 20px;
+	line-height: 30px;
+}
+a{
+    color: #004c21;
+}
+a:hover{
+	color: white;
+	background-color: #004c21;
+	font-size: 20px;
+	border: 1px solid #004c21;
+}
+#def{
+	width: 1000px;
+	margin: 10px 10px 20px 20px;
+}
+.img{
+	width: 100px;
+	height: 100px;
+    margin-top: 80px;
+    float: right;
+}
+.text{
+	width: 750px;
+	height: 250px;
+	margin: 80px 0px 0px 60px;
+	float: left;
+	border: 1px dashed #93a53b;
+}
+.img img{
+	width: 100px;
+	height: 100px;
+}
+hr{
+	width: 1200px;
+	height: 1px;
+	margin-left: 210px;
+	transform: rotate(-10deg);
+	color: #00c700;
+}
+#nk{
+	width: 210px;
+	float: left;
+	margin-top: 20px;
+}
+#pho{
+	width: 210px;
+	height: 210px;
+	border: 1px dashed #93a53b;
+	text-align: center;
+}
+#pho img{
+	width: 200px;
+	height: 200px;
+}
+#context1{
+	width: 300px;
+	height: 500px;
+	background-color: #f4fbf6;
+	float: left;
+	margin: 300px 50px 0px 50px;
+}
+#context2{
+	width: 600px;
+	height: 800px;
+	background-color: #f4fbf6;
+	float: left;
+	margin-top: 50px;
+}
+
+#other{
+	width: 1000px;
+	margin: 10px 0px 0px 50px;
+	clear: both;
+}
+footer{
+	width: 100%;
+	height: 80px;
+	clear: both;
+	background-color: #f4fbf6;
+}
+.sp{
+	width: 20px;
+	height: 60px;
+	display: block;
+    float: left;
+    margin: 5px 20px 5px 200px;
+}

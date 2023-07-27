@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	font-family: 楷体;
+}
+body{
+	background:url("img/12.jpg");
+    background-size:500px 324px;
+    -moz-background-size:63px 100px; /* 老版本的 Firefox */
+    background-repeat:no-repeat;
+    /*padding-top:80px;*/
+}
+header{
+	height: 20px;
+	background-color: #FFF8DC;
+	position: fixed;
+	text-align: center;
+}
+header span{
+	margin: 5px 20px 20px 20px;
+	font-size: 16px;
+	color: #6600CC;
+	text-align: center;
+}
+header span:hover{
+   color:blue; 
+}
+
+#right{
+	width: 70%;
+	float: right;
+	margin-top: 20px;
+	background-color: #F5F5F5;
+}
+#left{
+	width: 30%;
+	height: 500px;
+	margin-top: 20px;
+	float: left;
+	text-shadow: 0 0 3px pink;
+}
+#catalogue{
+	width: 30%;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	float: left;
+    position: fixed; 
+    background-color: #F5F5F5;
+}
+#catalogue li a{
+	text-decoration: none;
+	transform: translateY(-10px);
+}
+#catalogue ul{
+	font-size: 1.5em;
+}
+#catalogue li img{
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+}
+#catalogue h1:hover{
+	color: #6600CC;
+}
+#banner{
+	width: 70%;
+	height: 300px;
+	border: 1px solid black;
+	border-radius: 10px;
+	/*background-image: url("img/3.jpg");*/
+}
+#nav{
+	width: 100%;
+	margin-top: 10px;
+	font-size: 18px;
+    text-align:center;
+}
+#nav a{
+	text-decoration: none;
+	border-right: 1px solid black;
+	padding: 0 20px;
+}
+a:link{
+	color: orange;
+}		
+a:hover{
+	color: pink;
+}
+a:active{
+	color: green;
+}
+#container{
+	width: 100%;
+}
+#container-left{
+	width: 50%;
+	float: left;
+	margin-right: 20px;
+}
+#container-right{
+	width: 45%;
+	float: right;
+}
+#container-right img{
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+.col-md-6{
+	width: 100%;
+	height: 300px;
+	overflow: auto;
+	margin: 20px 0 20px 20px;
+	box-shadow: 10px 10px 5px #CCCCFF;
+}
+.col-md-6 p{
+	font-size:20px;
+}
+.img{
+	float: left;
+	transform: translateY(-10px);
+}
+.img p{
+	margin: 0 auto;
+	text-align: center;
+}
+.img img{
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+}
+#footer{
+	height: 30px;
+	line-height: 30px;
+	background-color: #FFF8DC;
+	clear: both;
+	text-align: right;
+}

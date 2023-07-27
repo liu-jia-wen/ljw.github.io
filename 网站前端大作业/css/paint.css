@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 楷体;
+	letter-spacing: 2px;
+	line-height: 2em;
+	font-size: 20px;
+}
+.paint{
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin:20px;
+	border: 1px solid #9cb8c6;
+	background-color: #9cb8c6;
+	color: white;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+}
+.paint img{
+    width: 250px;
+    height: 300px;
+}

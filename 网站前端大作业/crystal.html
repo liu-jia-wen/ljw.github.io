@@ -1,0 +1,326 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+  if (location.hostname === 'helphero.co' || location.hostname === 'app.helphero.co') {
+    (function(i,r){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();})(window,'ga');
+    ga('create', 'UA-90243606-1', 'auto');
+    ga('set', 'transport', 'beacon');
+  }
+</script>
+<style>
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-font-feature-settings: "pnum";
+    font-feature-settings: "pnum";
+    font-variant-numeric: proportional-nums;
+  }
+
+  * { box-sizing: border-box; }
+
+  @-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 0.8; }
+  }
+
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 0.8; }
+  }
+</style>
+<style class="_stylesheet_hydrate_">
+.ae{height:3rem}
+.af{position:absolute}
+.ag{top:0px}
+.ah{left:0px}.ai{right:0px}.aj{width:100%}.ak{z-index:900}.al{background-color:#1E88E5}.am{position:-webkit-sticky;position:sticky}.an{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.ao{-webkit-box-align:center;align-items:center}.ap{color:#fff}.aq{margin:0 auto}.ar{max-width:1040px}.as{position:relative}.at{padding:10px 20px}.au{margin:0px}.av{font-size:20px}.aw{font-weight:400}.ax{fill:#fff}.ay{margin-top:10px}.az{width:130px}.b0{height:24px}.b2{color:white}.b3{cursor:pointer}.b4{padding:5px 20px}.b5{line-height:2}.b6{-webkit-transition:all .15s ease;-moz-transition:all .15s ease;transition:all .15s ease}.b7{text-decoration:none}.b8{font-size:17px}.b9{text-align:left}.ba{flex:}.bb{display:inline-block}.bc:hover{background-color:#2196F3}.bd:after{display:none}.be:after{content:''}.bf:after{position:absolute}.bg:after{left:5px}.bh:after{right:5px}.bi:after{bottom:3px}.bj:after{opacity:0.5}.bk:after{border-bottom:2px solid currentColor}.bl{margin-left:auto}.bm{text-transform:uppercase}.bn{width:16px}.bo{height:16px}.bp{top:2px}.bq{top:10px}.br{right:10px}.bs{display:none}.bt{border:none}.bu{background:none}.bv{outline:0px}.bw{padding:5px 10px}.bx:hover{background:#2196F3}.bz{padding:40px 40px 60px}.c0{background:-webkit-linear-gradient(0deg,#42A5F5,#1E88E5);background:-moz-linear-gradient(0deg,#42A5F5,#1E88E5);background:linear-gradient(0deg,#42A5F5,#1E88E5)}.c1{text-align:center}.c2{color:rgba(255,255,255,0.9)}.c3{font-size:18px}.c5{font-weight:500}.c6{margin-bottom:20px}.c7{line-height:1.1}.c9{line-height:1.5}.ca{max-width:600px}.cc{line-height:1.6}.cd{color:#636363}.ce{overflow:hidden}.cf{max-width:740px}.cg{margin-right:auto}.ch{padding:60px 20px}.ci{background-color:#f5f7f9}.cj{color:rgba(255, 255, 255, 0.8)}.ck{padding:40px 20px}.cl{list-style:none}.cm{-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row}.co{margin-left:}.cp{color:rgba(0, 0, 0, 0.54)}.cq{font-size:15px}.cr:hover{background-color:#ddd}.cs{max-width:1020px}.ct{padding:40px 30px}.cu{-webkit-box-lines:multiple;flex-wrap:wrap}.cv{-webkit-box-align:start;align-items:flex-start}.cw{-webkit-box-pack:center;justify-content:center}.cx{min-width:360px}.cy{padding:20px 40px}.cz{flex:1 1 50%}.d1{color:#0D47A1}.d2{line-height:1.2}.d3{padding-bottom:10px}.d4{letter-spacing:.02em}.d5{width:1040px}.d6{max-width:100%}.d7{padding:0 20px}.da{position:fixed}.db{min-width:250px}.dc{background:#f5f7f9}.dd{height:100vh}.de{width:calc((100% - 1040px) / 2 + 250px)}.df{padding-left:calc((100% - 1040px) / 2)}.dg{border-right:1px solid #eef1f3}.dm{padding:20px 15px 20px 15px}.dn{fill:#1976D2}.do{margin-right:8px}.dp{top:-7px}.dq{color:black}.dr{overflow-y:auto}.ds{max-height:calc(100% - 70px)}.dt{padding:32px 15px 20px 15px}.dv{line-height:22px}.dw{color:#2196F3}.dx{left:250px}.dy{padding:0px}.dz{border-bottom:1px solid #eef1f3}.e1{fill:#939da3}.e2{width:20px}.e3{height:20px}.e4{pointer-events:none}.e5{top:20px}.e6{left:28px}.e7{visibility:hidden}.e8{width:calc(100% - 180px)}.e9{color:#939da3}.ea{padding:20px 0 20px 51px}.eb{outline:none}.ec{-webkit-appearance:none}.ed{border:0px}.ee{float:right}.ef{top:17px}.eg{fill:#2196F3}.eh{padding:0px 30px 50px 30px}.ei{width:790px}.ej{max-width:calc(100vw - 250px)}.em{padding:20px 0px 39px 0px}.en{font-size:32px}.eo{padding:19px 0px 0px 0px}.ep{color:inherit}.eq{text-decoration:inherit}.er{padding:17px 0px 0px 0px}.es{line-height:1.75}.et{background:#f7f8f9}.eu{border:1px solid #ddd}.ev{border-radius:3px}.ew{margin:0px 2px}.ex{padding:0px 5px}.ey{border-top:2px solid #f4f6f7}.ez{font-size:22px}.f0{width:600px}.f1{margin-top:15px}.f2{width:320px}.f3{height:514px}.f4{background-color:#E3F2FD}.f5{margin-bottom:15px}.f6{padding:10px}.f7{box-shadow:0 0 2px 0 rgba(0,0,0,.07), 0 3px 8px 0 rgba(0,0,0,.1)}.f8{display:block}.f9{height:584px}.fa{padding-top:10px}.fb{margin:0 -15px}.fc{margin:0 15px}.fd{height:400px}.fe{width:500px}.ff{height:424.5px}.fg{border-radius:4px}.fh{padding:10px 0px 20px 0px}.fi{width:298px}.fj{height:346.5px}.fk{width:279.5px}.fl{height:352px}.fm{width:247px}.fn{height:207.5px}.fo{height:360px}.fp{width:306px}.fq{height:506px}.fr{margin-right:20px}.fs{height:390px}.ft{height:570px}.fu{height:610px}.fv{font-weight:bold}.fw{width:27px}.fx{width:483px}.fy{margin-top:20px}.fz{margin-left:17px}.g0{width:700px}.g1{height:327px}.g2{height:442px}.g3{height:642px}.g4{height:639px}.g5{color:#1976D2}.g6{height:540px}.g7{height:515px}.g8{border-bottom:1px solid #e0e0e0}.g9{height:430px}.ga{width:300px}.gb{height:382.5px}.gc{height:414px}.gd{height:434px}.ge{margin-top:5px}.gf{width:615px}.gg{height:420px}.gh{border-radius:6px}.gi{margin:5px 2px 0px 2px}.gj{color:#4caf50}.gk{color:rgb(244, 67, 54)}.gl:after{display:block}.gm{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.gn{max-width:900px}.go{margin:auto}.gp{padding:10px 45px}.gq{width:40px}.gr{height:40px}.gs{padding:5px 30px 0px}.gt{font-size:0.9em}.gu{font-style:italic}.gv{font-weight:300}.gw{background:#ffab40}.gx{padding:10px 30px}.gy{display:-webkit-inline-box;display:-moz-inline-box;display:-ms-inline-flexbox;display:-webkit-inline-flex;display:inline-flex}.gz{border-radius:5px}.h0{box-shadow:0 4px 6px rgba(50,50,50,.1), 0 1px 3px rgba(0,0,0,.1)}.h1:hover{background:#FF9100}.h2:hover{transform:translateY(-1px)}.h3:hover{box-shadow:0 7px 14px rgba(50,50,50,.1), 0 3px 6px rgba(0,0,0,.1)}.h4{padding:40px 0px}.h5{padding:40px 30px 0px}.h6{height:1000px}.h7{top:165px}.h8{z-index:0}.h9{transform:skew(0,-8.5deg)}.ha{padding:40px 60px}.hb{margin:80px 0px 100px}.hc{border-radius:8px}.hd{background:#fff}.he{box-shadow:0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07)}.hh{font-size:25px}.hi{margin-right:60px}.hj{padding-top:25px}.hl{padding:100px 20px 100px 20px}.hm{color:#32325d}.hn{padding:20px 20px 0px}.ho{font-size:26px}.hr{padding:20px 20px 80px 20px}.hu{-webkit-box-pack:justify;justify-content:space-around}.hv{padding-bottom:60px}.hy{-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column}.i1{padding:20px 20px 10px}.i2{padding:0px 0px 5px 0px}.i3{padding-left:35px}.i4{flex-shrink:0}.i5{box-shadow:1px 1px 5px 0 rgba(26,26,67,.05), 39px 62.5px 125px -25px rgba(50,50,93,.5), 23.4px 37.5px 75px -37.5px rgba(0,0,0,.6)}.ib{height:412.5px}.ic{min-width:600px}.id{transform:scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)}.ie{background:white}.ig{width:470px}.ih{min-width:470px}.ii{transform:scale(.9) perspective(2910px) rotateY(20deg) rotateX(5deg) rotate(-1deg)}.ij{box-shadow:-1px -1px 5px 0 rgba(26,26,67,.05), -12px 20px 125px -25px rgba(50,50,93,.5), -18px 20px 75px -37.5px rgba(0,0,0,.6)}.il{padding-top:15px}.im{height:493px}.in{transform:scale(0.95) perspective(2910px) rotateY(20deg) rotateX(5deg) rotate(-1deg)}.iq{height:580px}.ir{min-width:320px}.is{transform:scale(0.95) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)}.it{padding:20px}.iv{flex:1 1 100%}.iw{padding:22px}.ix{max-width:346px}.iy{margin-bottom:10px}.iz{width:70px}.j0{height:70px}.j1{max-width:100vw}.j2{overflow:visible}.j3{background:-webkit-linear-gradient(90deg, #2196F3, #1976D2);background:-moz-linear-gradient(90deg, #2196F3, #1976D2);background:linear-gradient(90deg, #2196F3, #1976D2)}.j4{top:-650px}.j5{height:680px}.j6{transform:skewY(-8.5deg) translateY(76%)}.j8{background:-webkit-linear-gradient(100deg, #1976D2, #2196F3);background:-moz-linear-gradient(100deg, #1976D2, #2196F3);background:linear-gradient(100deg, #1976D2, #2196F3)}.j9{height:600px}.ja{background:-webkit-linear-gradient(20deg, #1E88E5, #1976D2);background:-moz-linear-gradient(20deg, #1E88E5, #1976D2);background:linear-gradient(20deg, #1E88E5, #1976D2)}.jb{height:365px}.jc{padding:120px 20px 100px 20px}.jf{flex:1 0 470px}.ji{font-size:44px}.jj{line-height:1.25}.jk{letter-spacing:0.8px}.jl{padding-bottom:30px}.jn{font-size:24px}.jo{line-height:1.35}.jp{padding-bottom:50px}.js{transform:scale(0.9) translateX(-25px) translateY(-30px) perspective(3090px) rotateY(-29deg) rotateX(2deg) rotate(1deg)}.jt{flex:1 0 auto}.k0{z-index:1}.k1{padding:40px 20px 0px}.k2{top:-20px}.k5{padding:35px 20px 50px}.k6{margin:0px auto}.kb{margin:5px 15px}.kg{padding:20px 3px}.kh{color:#ddd}.ki:hover{color:#BBDEFB}.kj{padding:80px 20px}.kk{width:60px}.kl{height:60px}.km{padding:0px 0px 10px 0px}.kn{padding:40px 40px 10px}.ko{fill:#FF9100}.kp{margin-right:10px}.kq{width:23px}.kr{height:23px}.ks{top:4px}.kt{border:1px solid #BBDEFB}.ku{box-shadow:0px 2px 2px 1px  #BBDEFB}.kv:before{top:100%}.kw:before{left:50%}.kx:before{content:" "}.ky:before{height:0px}.kz:before{width:0px}.l0:before{position:absolute}.l1:before{pointer-events:none}.l2:before{border-top:11px solid #BBDEFB}.l3:before{border-left:11px solid rgba(194, 225, 245, 0)}.l4:before{border-right:11px solid rgba(194, 225, 245, 0)}.l5:before{border-bottom:11px solid rgba(194, 225, 245, 0)}.l6:before{margin-left:-11px}.l7:after{top:100%}.l8:after{left:50%}.l9:after{content:" "}.la:after{height:0px}.lb:after{width:0px}.lc:after{pointer-events:none}.ld:after{border-top:8px solid #ffffff}.le:after{border-left:8px solid rgba(255, 255, 255, 0)}.lf:after{border-right:8px solid rgba(255, 255, 255, 0)}.lg:after{border-bottom:8px solid rgba(255, 255, 255, 0)}.lh:after{margin-left:-8px}</style><style class="_stylesheet_hydrate_" media="(max-width: 940px)">.hw{-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column}.hx{-webkit-box-pack:center;justify-content:center}.hz{padding:10px 30px 40px}.i6{flex-shrink:1}.i7{width:100%}.i8{height:auto}.i9{max-width:600px}.ia{min-width:300px}.if{-webkit-box-orient:vertical;-webkit-box-direction:reverse;flex-direction:column-reverse}.ik{max-width:470px}.io{max-width:320px}.ip{min-width:250px}.j7{display:none}.jd{padding:60px 20px}.je{background:#1E88E5}.jg{padding:0px 20px 50px}.jh{flex:1 0 auto}.jq{font-size:22px}.jr{text-align:center}.ju{-webkit-box-align:center;align-items:center}.jv{transform:scale(0.9) translateX(-1%) perspective(3090px) rotateY(-29deg) rotateX(2deg) rotate(1deg)}.jw{width:auto !important}.jx{height:auto !important}.jy{min-width:450px}.jz{max-height:100%}.k3{font-size:18px}.k4{top:0px}</style><style class="_stylesheet_hydrate_" media="(max-width: 800px)">.b1{display:none}.by{display:inline}.cn{display:block}</style><style class="_stylesheet_hydrate_" media="(max-width: 720px)">.c4{padding:20px 40px 60px}.c8{font-size:24px}.cb{font-size:15px}.d0{padding:30px 10px}.d8{padding:0px}.d9{margin:0px}.dh{position:initial}.di{top:auto}.dj{left:auto}.dk{height:auto}.dl{width:100%}.du{padding:0px 20px 20px 20px}.e0{display:none}.ek{padding:20px}.el{max-width:100%}.hf{box-shadow:none}.hg{margin:40px 0px 60px}.hk{-webkit-box-orient:vertical;-webkit-box-direction:reverse;flex-direction:column-reverse}.hp{font-size:22px}.hq{text-align:left}.hs{font-size:18px}.ht{padding-bottom:30px}.i0{padding:10px 10px 40px}.iu{display:block}.jm{font-size:28px}</style><style class="_stylesheet_hydrate_" media="(max-width: 480px)">.k7{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.k8{-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row}.k9{-webkit-box-lines:multiple;flex-wrap:wrap}.ka{-webkit-box-pack:center;justify-content:center}.kc{flex:0 1 50%}.kd{max-width:100px}.ke{max-height:40px}.kf{height:auto}
+</style><meta name="viewport" content="width=device-width"/>
+<meta charSet="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="title" content="HelpHero - Add interactive product tours to your web app in minutes"/><meta name="description" content="Improve user experience, onboarding &amp;amp; success without writing code. Create a free account now."/>
+<meta name="keywords" content="user onboarding, product tutorials, product tours, walkthroughs"/>
+<meta name="mail:logo" content="https://helphero.co/assets/logo@2x.png?h=337b6cc5780464e8e11df8dad8dd78f3"/>
+<link rel="shortcut icon" href="https://helphero.co/assets/favicon.ico?h=eaafa1b2bb6f33d419f969b218d74e45"/>
+<link rel="canonical" href="https://helphero.co"/>
+<link rel="image_src" type="image/png" href="https://helphero.co/assets/social.png?h=a23963dfb9d42625d3b26f1611a0733e"/>
+<meta property="og:title" content="HelpHero - Add interactive product tours to your web app in minutes"/>
+<meta property="og:description" content="Improve user experience, onboarding &amp;amp; success without writing code. Create a free account now."/>
+<meta property="og:image" content="https://helphero.co/assets/social.png?h=a23963dfb9d42625d3b26f1611a0733e"/>
+<meta property="og:site_name" content="HelpHero"/>
+<meta property="og:url" content="https://helphero.co"/>
+<meta property="og:type" content="website"/>
+<meta name="twitter:title" content="HelpHero - Add interactive product tours to your web app in minutes"/>
+<meta name="twitter:description" content="Improve user experience, onboarding &amp;amp; success without writing code. Create a free account now."/>
+<meta name="twitter:image" content="https://helphero.co/assets/social.png?h=a23963dfb9d42625d3b26f1611a0733e"/>
+<meta name="twitter:card" content="summary"/>
+<title>Crytal</title>
+<style>
+        #nprogress {
+          pointer-events: none;
+        }
+
+        #nprogress .bar {
+          background: #ffab40;
+          position: fixed;
+          z-index: 1031;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 2px;
+        }
+
+        #nprogress .peg {
+          display: block;
+          position: absolute;
+          right: 0px;
+          width: 100px;
+          height: 100%;
+          box-shadow: 0 0 10px #ffab40, 0 0 5px #ffab40;
+          opacity: 1.0;
+
+          -webkit-transform: rotate(3deg) translate(0px, -4px);
+              -ms-transform: rotate(3deg) translate(0px, -4px);
+                  transform: rotate(3deg) translate(0px, -4px);
+        }
+    </style>
+    <meta name="next-head-count" content="5"/>
+    <link rel="preload" href="/_next/static/DGaoyKcAic6TDn3MT6kqB/pages/index.js" as="script"/>
+    <link rel="preload" href="/_next/static/DGaoyKcAic6TDn3MT6kqB/pages/_app.js" as="script"/>
+    <link rel="preload" href="/_next/static/runtime/webpack-b65cab0b00afd201cbda.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/framework.a6e2e6724b43c3087cff.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/commons.4d84f90722542edc5877.js" as="script"/>
+    <link rel="preload" href="/_next/static/runtime/main-2429fc30d3b6f8d34c26.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/09980eadb2dc08dfb4d525589fc7f3936b2b0aee.b6debc638ea87dcb4365.js" as="script"/>
+    <link rel="preload" href="/_next/static/chunks/8d35fa9a6eae5187a238edf4d788947d9f2be447.4d924386a4ffd3ec9e5d.js" as="script"/>
+    </head>
+    <body>
+    <div id="__next">
+    <div class="ae af ag ah ai"></div>
+    <header style="box-shadow:none" class="aj ak al am ag">
+    <div class="an ao ap aq ar as">
+    <h1 class="at au av aw">
+    <a href="/">
+    <rect width="7" height="51.5" x="40" y=".5" rx="3.5"></rect>
+    </a>
+    </h1>
+    <nav class="b1">
+    <a class="b2 b3 b4 b5 aw as b6 b7 b8 b9 ba bb bc bd be bf bg bh bi bj bk" href="#">Crystal</a>
+    <a class="b2 b3 b4 b5 aw as b6 b7 b8 b9 ba bb bc bd be bf bg bh bi bj bk" href="#">Features</a>
+    <a class="b2 b3 b4 b5 aw as b6 b7 b8 b9 ba bb bc bd be bf bg bh bi bj bk" href="#">Pricing</a>
+    <a class="b2 b3 b4 b5 aw as b6 b7 b8 b9 ba bb bc bd be bf bg bh bi bj bk" href="#">Standard</a>
+    <a class="b2 b3 b4 b5 aw as b6 b7 b8 b9 ba bb bc bd be bf bg bh bi bj bk" href="#">Thanks</a>
+    </nav>
+    <a class="b2 b3 b4 b5 aw as b6 b7 b8 b9 ba bb bc bd be bf bg bh bi bj bk bl bm b1" href="#">Sign in 
+    <svg viewBox="0 0 24 24" class="bn bo ax as bp">
+    <g stroke="none" stroke-width="1">
+    <polygon fill="none" points="0 0 24 0 24 24 0 24" fill-rule="evenodd"></polygon>
+    <polygon fill-rule="nonzero" points="12 4 10.59 5.41 16.17 11 4 11 4 13 16.17 13 10.59 18.59 12 20 20 12"></polygon>
+    </g>
+    </svg>
+    </a>
+    <button class="b3 af bq br bs bt bu au bv bw bx by"><svg viewBox="0 0 24 24" fill="#fff" style="width:30px;height:30px"><path d="M0 0h24v24H0z" fill="none"></path><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+    </button>
+    </div>
+    </header>
+    <div class="b8 cc cd ce">
+    <div class="j1 as j2">
+    <div class="j3 j4 j5 af aj j6 j7"></div>
+    <div class="j8 j4 j9 af aj j6 j7"></div>
+    <div class="ja j4 jb af aj j6 j7"></div>
+    <div class="ap as cm an ar aq aj jc jd je hw">
+    <div class="jf d6 jg jh">
+    <div class="ji jj c5 jk jl jm">Crystal</div>
+    <div class="gv jn jo ap jp jq">在我的眼中，水晶的美并不是天生就具备的，也许在美丽的背后经过了多少我们所不知道的，才有了它今天的光彩夺目。而我们则不是这样呢？只有经历过风雨，才能见彩虹，才能迎接成功的灿烂曙光!</div>
+    <div class="jr">
+    <div><a href="#" class="gw b3 gx bm b7 gy ao cw gz ap av h0 b6 h1 h2 h3">水晶美图</a></div>
+
+    <div style="padding-top:10px">
+      <span style="color:rgba(255,255,255,0.85);margin:0px 15px;white-space:nowrap">
+      <svg viewBox="0 0 11 10" fill="currentColor" opacity="0.8" style="width:12px;height:12px;margin-right:6px">
+      <path d="M9.8.2L3.3 6.9l-1.8-2C.8 4.2-.4 5 .1 6l2.1 3.5c.3.4 1.1.9 1.9 0l6.6-8.3c.8-.8-.2-1.6-.9-1z"></path>
+      </svg>
+      <span class="cq"></span>
+      </span>
+    </div>
+    </div>
+    </div>
+    <div class="hc i5 js an jt hx ju jv"><svg viewBox="0 0 660 430" class="f8 jw jx jy jz jh" style="width:660px;height:430px;pointer-events:none;border-radius:8px"><g><g><g>
+    <rect x="0" y="0" fill="white" width="660" height="430"></rect>
+    <rect x="0" y="0" width="660" height="40" fill="#eaeef4"></rect>
+    <rect rx="4" ry="4" x="115.5" y="13" width="429" height="20" fill="#d5dbe3"></rect>
+    <rect x="0" y="39" width="660" height="1" fill="#afbbc7"></rect>
+    <path transform="translate(47.5,15)" d="M7.2 3L2.7 7.3 7.2 12" stroke="#9a9a9a" fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path transform="translate(82.5,15)" d="M3.2 11.9l4.5-4.5-4.5-4.5" stroke="#9a9a9a" fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path transform="translate(559.5,15)" d="M8 3v10M3 8h10" stroke="#9a9a9a" fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+    <g transform="translate(589.5,15)">
+    <path d="M9.6 5.4H4.1a1 1 0 00-1 1V12c0 .6.4 1 1 1h5.5c.6 0 1-.4 1-1V6.5c0-.6-.4-1.1-1-1.1z" stroke="#9a9a9a" fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12.2 10.7a.9.9 0 00.8-.8v-6a.9.9 0 00-.8-.8h-6a.9.9 0 00-.8.8" stroke="#9a9a9a" fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"></path></g>
+    <path transform="translate(243.5,18)" fill="#9a9a9a" d="M6.73 3.65v-.88a2.77 2.77 0 00-5.54 0v.88a1.38 1.38 0 00-.69 1.2v2.77A1.38 1.38 0 001.88 9h4.16a1.38 1.38 0 001.38-1.38V4.85a1.38 1.38 0 00-.69-1.2zm-1.38.5H2.58V2.77a1.38 1.38 0 112.77 0v1.38z"></path>
+    <rect rx="2" ry="2" x="258.5" y="20" width="143" height="6" fill="#afbbc7"></rect></g>
+    <svg y="40" width="660" height="390" viewBox="0 0 750 500" preserveAspectRatio="xMinYMin slice">
+    <g fill="#FF9100" fill-rule="evenodd">
+    <g transform="translate(358 335)">
+    <path d="M.3 6h88.2v4.7H.3z"></path>
+    <path opacity=".5" d="M.3 18.5h180v4.7H.3zM.3 30.5h45v4.7H.3zM133.3 30.5h55v4.7h-55zM50.3 30.5h78v4.7h-78z"></path>
+    <rect opacity=".2" x="272" width="38" height="38" rx="2"></rect>
+    <rect opacity=".2" x="228" width="38" height="38" rx="2"></rect>
+    <path d="M296 15c0 2.6-2 4.6-4.7 4.6-2.5 0-4.5-2-4.5-4.6 0-2.6 2-4.6 4.5-4.6 2.6 0 4.6 2 4.6 4.6zm-14 11.7c0-3.2 6-5 9-5 3.2 0 9.3 1.8 9.3 5v1.5H282v-1.5zM247.5 28s7.5-7.7 7.5-11.7c0-4-3.4-7.3-7.5-7.3-4 0-7.5 3.3-7.5 7.3s7.5 11.7 7.5 11.7zm0-9.8c1.4 0 2.6-1.2 2.6-2.5 0-1.4-1-2.6-2.5-2.6-1.4 0-2.6 1.3-2.6 2.7 0 1.3 1 2.5 2.5 2.5z" opacity=".8"></path></g>
+    <g transform="translate(358 79)">
+    <rect opacity=".2" width="310" height="230" rx="4"></rect>
+    <g transform="translate(101 90)"><path opacity=".8" d="M37 1l20.5 34.4L75.7 23l30 35H.3"></path>
+    <ellipse opacity=".8" cx="93.1" cy="9.7" rx="8.7" ry="8.7"></ellipse></g></g><g><g transform="translate(83 335)">
+    <path d="M63.3 11.7H129v4.7H63.3z"></path>
+    <path opacity=".5" d="M63.3 23.4h129.2V28H63.3zM63.3 35.2h131.3V40H63.3z"></path>
+    <rect opacity=".2" width="51.6" height="51.6" rx="2"></rect>
+    <g transform="translate(7, 15) scale(0.35)"><path opacity=".8" d="M37 1l20.5 34.4L75.7 23l30 35H.3"></path>
+    <ellipse opacity=".8" cx="93.1" cy="9.7" rx="8.7" ry="8.7"></ellipse></g></g>
+    <g transform="translate(83 270)"><path d="M63.3 11.7h76.2v4.7H63.3z"></path>
+    <path opacity=".5" d="M63.3 23.4H210V28H63.2zM63.3 35.2h129V40h-129z"></path>
+    <rect opacity=".2" width="51.6" height="51.6" rx="2"></rect>
+    <g transform="translate(7, 15) scale(0.35)">
+    <path opacity=".8" d="M37 1l20.5 34.4L75.7 23l30 35H.3"></path>
+    <ellipse opacity=".8" cx="93.1" cy="9.7" rx="8.7" ry="8.7">
+    </ellipse></g></g><g transform="translate(83 205)">
+    <path d="M63.3 10H158v4.7H63.3zM163.6 10h10.8v4.7h-10.8z"></path>
+    <path opacity=".5" d="M63.3 21.7h140v4.7h-140zM63.3 33.5h59.2v4.7H63.3z"></path>
+    <rect opacity=".2" width="51.6" height="51.6" rx="2"></rect>
+    <g transform="translate(7, 15) scale(0.35)">
+    <path opacity=".8" d="M37 1l20.5 34.4L75.7 23l30 35H.3"></path>
+    <ellipse opacity=".8" cx="93.1" cy="9.7" rx="8.7" ry="8.7"></ellipse></g></g>
+    <g transform="translate(83 140)">
+    <path d="M63.3 11.7h76.2v4.7H63.3z"></path>
+    <path opacity=".5" d="M63.3 23.4H210V28H63.2zM63.3 35.2h129V40h-129z"></path>
+    <rect opacity=".2" width="51.6" height="51.6" rx="2"></rect>
+    <g opacity=".8" transform="translate(13, 13)">
+    <path d="M13 26c7.2 0 13-5.8 13-13S20.2 0 13 0 0 5.8 0 13s5.8 13 13 13zM9 12.6V6l5.7 3.3 5.7 3.3-5.7 3.3L9 19v-6.6z"></path></g></g>
+    <g transform="translate(83 75)"><path d="M63.3 10H116v4.7H63.4zM122 10h17.5v4.7H122z"></path>
+    <path opacity=".5" d="M63.3 21.7H210v4.7H63.2zM63.3 33.5H210v4.7H63.2z"></path>
+    <rect opacity=".2" width="51.6" height="51.6" rx="2"></rect>
+    <g opacity=".8" transform="translate(13, 13)">
+    <path d="M13 26c7.2 0 13-5.8 13-13S20.2 0 13 0 0 5.8 0 13s5.8 13 13 13zM9 12.6V6l5.7 3.3 5.7 3.3-5.7 3.3L9 19v-6.6z"></path></g></g></g>
+    <path d="M0 0h750v34H0z"></path>
+    <path fill="#fff" d="M20.5 8L29 25H12"></path>
+    <text style="font-size:14px;fill:#fff;font-weight:bold" dy="0.3em" x="45" y="17">MySite</text>
+    <circle cx="720" cy="17" stroke="#fff" stroke-width="1" r="9"></circle>
+    <rect x="600" y="8" width="100" height="18" rx="8" stroke="#fff" stroke-width="1"></rect></g></svg></g></g></svg>
+    </div></div></div>
+    <div>
+    <div class="k0 c1 k1 cd gv av jo as k2 k3 k4">
+    <div class="k5 gn k6 c3 ag k7 k8 k9 ka">
+    <img src="img/crystal1.jpg" class="gr kb kc kd ke kf"/>
+    <img src="img/crystal10.jpg" class="gr kb kc kd ke kf"/>
+    <img src="img/crystal2.jpg" class="gr kb kc kd ke kf"/>
+    <img src="img/crystal3.jpg" class="gr kb kc kd ke kf"/>
+    <img src="img/crystal4.jpg" class="gr kb kc kd ke kf"/>
+    <img src="img/crystal5.jpg" class="gr kb kc kd ke kf"/>
+    <img src="img/crystal6.jpg" class="gr kb kc kd ke kf"/>
+    <img src="img/crystal7.jpg" class="gr kb kc kd ke kf"/>
+    <img src="img/crystal8.jpg" class="gr kb kc kd ke kf"/>
+    <img src="img/crystal9.jpg" class="gr kb kc kd ke kf"/>
+    </div>
+    <div style="cursor:pointer" class="gm aw">
+    <div class="as gn go gp bb"><svg fill="#2196F3" style="top:-5px;left:0;transform:rotate(-180deg)" viewBox="0 0 24 24" class="gq gr af"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"></path></svg>古往今来，人们认为世界上最纯净的东西莫过于水晶，水晶常被人们比作贞洁少女的泪珠，圣人智慧的结晶，夏夜穹空的繁星，大地万物的精华。<svg fill="#2196F3" style="bottom:-5px;right:0" viewBox="0 0 24 24" class="gq gr af"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"></path></svg>
+    </div>
+    <div class="gs gt gu gv">有一块水晶，通透晶莹，最难得的，是它未经雕琢自然成形，捧在手里，象一颗心，没有任何瑕疵的完美透亮的心。</div>
+    </div>
+    <div><button class="kg bt bu eb kh b3 ki"><svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#2196F3"></circle></svg></button>
+    <button class="kg bt bu eb kh b3 ki"><svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg></button>
+    <button class="kg bt bu eb kh b3 ki"><svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg></button>
+    <button class="kg bt bu eb kh b3 ki"><svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg></button>
+    </div>
+    </div>
+    <ul id="benefits" class="cm an cl ar aq aj kj iu ek">
+    <li class="iv iw as ix el">
+    <svg viewBox="0 0 37 37" class="iy kk kl"><g fill="#CCE7FF"><path d="M34.8 6.8v6.5L29 16.6l-6-3.3"></path><path d="M23 12.2L2.8 24.6H29v-8l-6-3.3"></path></g><g fill="none" fill-rule="evenodd" stroke="#1078FF" stroke-linecap="round" stroke-linejoin="round"><path d="M16 30v4.5M7 34.5h18M17.5 27h-3"></path><path d="M29 20.3V29H2.7V8.6h17.5M2.7 24.6H29M26 10l2.3 2.3L32 8"></path><path d="M34.8 13.3L29 16.6l-6-3.3V6.8l6-3.3 5.8 3.3z"></path></g></svg>
+    <div class="hm c5 c9 km d4 av">水晶信息</div>
+    <div>水晶（rock crystal）是稀有矿物，宝石的一种，石英结晶体，在矿物学上属于石英族。主要化学成份是二氧化硅，化学式为SiO2。纯净时形成无色透明的晶体。当含微量元素Al、Fe等时呈粉色、紫色、黄色，茶色等。经辐照微量元素形成不同类型的色心，产生不同的颜色，如紫色、黄色、茶色，粉色等。</div>
+    </li>
+    <li class="iv iw as ix el"><svg viewBox="0 0 37 37" class="iy kk kl"><path fill="#CCE7FF" fill-rule="nonzero" d="M14.8 30.2h11.7v5H14.8z"></path><path stroke="#1078FF" stroke-linecap="round" stroke-linejoin="round" fill="none" fill-rule="evenodd" d="M14.8 35.3v-6L9 20.8l2.2-1.5 3.6 3V9.7L17 8.3l2.2 1.5v8l8.7 3v6l-1.5 2.6v6M16.3 4.6v-3M10.5 10.5h-3M12.2 6.4l-2-2M20.4 6.4l2-2M22 10.5h3"></path></svg>
+    <div class="hm c5 c9 km d4 av">水晶简介</div>
+    <div>水晶（rock Crystal）是一种石英（Quartz ）结晶体矿物，它的主要化学成份是二氧化硅，化学式为SiO2。西方国家认为只要是透明的都是水晶（Crystal），所以水晶这个词包含了无色透明的玻璃（K9类，普通玻璃发蓝），也包含天然的水晶矿石。中国古老的水晶名称是水精、水碧、水玉、晶石等十多种称呼，因此，为了便于区分，国际上通常以（Rockcrystal）来特指天然水晶。</div>
+    </li>
+    <li class="iv iw as ix el">
+    <svg viewBox="0 0 37 37" class="iy kk kl"><g fill="#CCE7FF"><path d="M33 19.7v2L30.3 25v-5.3"></path><path d="M27.7 19.7h2.7V25h-2.7zM6.3 11v4.7l4-2.7V9.7l10 4.6 7.4-2V11L17 6.3M15.7 26.3H21V29h-5.3z"></path></g><g fill="none" fill-rule="evenodd" stroke="#1078FF" stroke-linecap="round" stroke-linejoin="round"><path d="M6.3 17H3.7v5.3l2.6 1.4M13 18.3v1.4M21 18.3v1.4M15.7 26.3H21V29h-5.3zM21 27.7h8V25"></path><path d="M27.7 14.3v-6L17 3.7 6.3 8.3v20l10.7 6 7-4M27.7 14.3h2.7V25h-2.7z"></path><path d="M30.3 14.3l2.7 3.4v4L30.3 25zM27.7 12.3l-7.4 2-10-4.6V13l-4 2.7V8.3L17 3.7l10.7 4.6z"></path></g></svg>
+    <div class="hm c5 c9 km d4 av">水晶性质</div>
+    <div>①压电效应:在机械力(压力或拉力)作用下，水晶单晶体的两端会产生电荷，其电量相等但符号相反。在工业上，无色、无缺陷、不具双晶的水晶常被用来作压电石英片。②热导性:比玻璃好，但与大多数矿物相比较差，且具有方向性。③热融性:水晶很难融化，温度达到1715℃左右时才熔融，有包裹体存在时可降低熔点。④沸点:2477℃</div>
+    </li>
+    </ul>
+    <div class="hm c5 c9 kn d4 ho bm c1 hp hq">水晶基本性质</div>
+    <ul style="padding:20px 20px 40px" class="cm an cl ar aq aj kj iu ek">
+    <li class="iv iw as ix el"><div class="hm c5 c9 km d4 av">
+    <svg viewBox="0 0 23 23" class="ko as kp kq kr ks"><path d="M11.5 0C18 0 23 5.2 23 11.5 23 18 18 23 11.5 23 5.2 23 0 18 0 11.5 0 5.2 5.2 0 11.5 0z"></path><path fill="#FFF" d="M15.8 6.2l-7.2 7.3-2-2.2c-.7-.8-2 0-1.4 1.2l2.2 4c.4.4 1.3 1 2 0l7.3-9.2c1-1-.2-1.8-1-1z"></path>
+    </svg>NO1
+    </div>
+    <div>颜色：无色，浅至深的紫色，浅黄、中至深黄色，浅至深褐、棕色，绿至黄绿色，浅至中粉红。</div>
+    <div style="padding:30px 0px 0px">
+    <div class="hm at kt ku gz hd as kv kw kx ky kz l0 l1 l2 l3 l4 l5 l6 l7 l8 l9 la lb bf lc ld le lf lg lh">色散值：0.013。色散是说宝石的折射率随照明光的不同而有一定的变化。</div>
+    <div style="padding:15px 10px 0px;font-size:0.9em;font-style:italic;font-weight:300;text-align:center">光性：一轴晶正光性。正交偏光下所看到的一轴晶干涉图是独特的，其黑十字臂未达中心，形成中空的图案，俗称牛眼干涉图。中心部分通常为淡绿色或淡粉色。</div>
+    </div>
+    </li>
+    <li class="iv iw as ix el"><div class="hm c5 c9 km d4 av">
+    <svg viewBox="0 0 23 23" class="ko as kp kq kr ks"><path d="M11.5 0C18 0 23 5.2 23 11.5 23 18 18 23 11.5 23 5.2 23 0 18 0 11.5 0 5.2 5.2 0 11.5 0z"></path><path fill="#FFF" d="M15.8 6.2l-7.2 7.3-2-2.2c-.7-.8-2 0-1.4 1.2l2.2 4c.4.4 1.3 1 2 0l7.3-9.2c1-1-.2-1.8-1-1z"></path></svg>NO2</div>
+    <div>光泽：玻璃光泽。断口处为油脂光泽。光泽，指宝石表面对光线反射的一种光学性质。观察水晶的光泽，可用手握着它，以灯光或窗户投进来的光线看表面反射，透明水晶亮度与光泽强弱有关。</div>
+    <div style="padding:30px 0px 0px"><div class="hm at kt ku gz hd as kv kw kx ky kz l0 l1 l2 l3 l4 l5 l6 l7 l8 l9 la lb bf lc ld le lf lg lh">透明度：水晶透明度与透过它的光的质与量有关。光线透明过厚度为1厘米以上的水晶碎片或薄片时，可以清晰地看到映出的图像。如果底像不够清楚，仅见轮廓，那便是半透明。</div>
+    <div style="padding:15px 10px 0px;font-size:0.9em;font-style:italic;font-weight:300;text-align:center">折射率(RI)：1.544－1.553，几乎不超出此范围。</div>
+    </div>
+    </li>
+    <li class="iv iw as ix el">
+    <div class="hm c5 c9 km d4 av"><svg viewBox="0 0 23 23" class="ko as kp kq kr ks"><path d="M11.5 0C18 0 23 5.2 23 11.5 23 18 18 23 11.5 23 5.2 23 0 18 0 11.5 0 5.2 5.2 0 11.5 0z"></path><path fill="#FFF" d="M15.8 6.2l-7.2 7.3-2-2.2c-.7-.8-2 0-1.4 1.2l2.2 4c.4.4 1.3 1 2 0l7.3-9.2c1-1-.2-1.8-1-1z"></path></svg>NO3
+    </div>
+    <div>解理：无解理。所谓解理是指矿物被打击时，沿一定方向有规则地裂开形成光滑平面的性质。根据解理的程度可以分为五类：极完全解理、完全解理、中等解理、不完全解理和无解理，水晶属于无解理。</div>
+    <div style="padding:30px 0px 0px">
+    <div class="hm at kt ku gz hd as kv kw kx ky kz l0 l1 l2 l3 l4 l5 l6 l7 l8 l9 la lb bf lc ld le lf lg lh">多色性:无色水晶没有多色性。有色水晶有弱到强的多色性.表现为体色的不同深浅。</div>
+    <div style="padding:15px 10px 0px;font-size:0.9em;font-style:italic;font-weight:300;text-align:center">硬度：摩氏硬度7，为摩氏硬度，相当于钢锉一般坚硬</div>
+    </div>
+    </li>
+    </ul>
+    <div class="c1 as ce">
+    <div class="dc af aj h6 h7 h8 h9 e0"></div>
+    <div class="as bb ha hb c1 hc hd he hf hg ek"><div>
+    <span class="g5 aw hh hi as bp e0">Ready to get crystal?</span>
+    <a href="//app.helphero.co/signin?new" class="gw b3 gx bm b7 gy ao cw gz ap av h0 b6 h1 h2 h3">Try for free</a></div><div class="hj an hk">
+    <span style="color:rgba(0,0,0,0.7);margin:0px 15px;white-space:nowrap">
+    <svg viewBox="0 0 11 10" fill="currentColor" opacity="0.8" style="width:12px;height:12px;margin-right:6px">
+    <path d="M9.8.2L3.3 6.9l-1.8-2C.8 4.2-.4 5 .1 6l2.1 3.5c.3.4 1.1.9 1.9 0l6.6-8.3c.8-.8-.2-1.6-.9-1z"></path>
+    </svg>
+    <span class="cq"></span>
+    </span>
+    <span style="color:rgba(0,0,0,0.7);margin:0px 15px;white-space:nowrap"><svg viewBox="0 0 11 10" fill="currentColor" opacity="0.8" style="width:12px;height:12px;margin-right:6px"><path d="M9.8.2L3.3 6.9l-1.8-2C.8 4.2-.4 5 .1 6l2.1 3.5c.3.4 1.1.9 1.9 0l6.6-8.3c.8-.8-.2-1.6-.9-1z"></path></svg><span class="cq"></span>
+    </span>
+    <span style="color:rgba(0,0,0,0.7);margin:0px 15px;white-space:nowrap">
+    <svg viewBox="0 0 11 10" fill="currentColor" opacity="0.8" style="width:12px;height:12px;margin-right:6px"><path d="M9.8.2L3.3 6.9l-1.8-2C.8 4.2-.4 5 .1 6l2.1 3.5c.3.4 1.1.9 1.9 0l6.6-8.3c.8-.8-.2-1.6-.9-1z"></path>
+    </svg>
+    <span class="cq">水晶晶莹剔透的美从内而外散发出来，在阳光的照耀下，显的更加闪耀、迷人。</span>
+    </span></div></div></div>
+    <div class="ci aj cj"><ul class="ar aq ck cl cm an cn"><li class="b8 b5 co"><a class="cp b3 b4 b5 aw b7 b6 cq b9 bb cr" href="/cdn-cgi/l/email-protection#e28b8c848da28a878e928a87908dcc818d">Contact: <span class="__cf_email__" data-cfemail="e881868e87a8808d8498808d9a87c68b87">[email&#160;protected]</span></a></li>
+    <li class="b8 b5 co"><a class="cp b3 b4 b5 aw b7 b6 cq b9 bb cr" href="/privacy">Privacy Policy</a></li><li class="b8 b5 co"><a class="cp b3 b4 b5 aw b7 b6 cq b9 bb cr" href="/terms">Terms of Use</a></li>
+    <li class="b8 b5 co"><a class="cp b3 b4 b5 aw b7 b6 cq b9 bb cr" href="/security">Security</a></li>
+    <li class="b8 b5 co"><a rel="noopener noreferrer" target="_blank" class="cp b3 b4 b5 aw b7 b6 cq b9 bb cr" href="https://www.g2.com/products/helphero/reviews">Reviews</a></li>
+    <li class="b8 b5 bl"></li>
+    </ul>
+    </div></div></div>
+  </div>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"DGaoyKcAic6TDn3MT6kqB","nextExport":true,"autoExport":true,"isFallback":false}</script>
+  <script nomodule="" src="/_next/static/runtime/polyfills-1d0e32e34434347eb2c2.js"></script>
+  <script async="" data-next-page="/" src="/_next/static/DGaoyKcAic6TDn3MT6kqB/pages/index.js"></script>
+  <script async="" data-next-page="/_app" src="/_next/static/DGaoyKcAic6TDn3MT6kqB/pages/_app.js"></script>
+  <script src="/_next/static/runtime/webpack-b65cab0b00afd201cbda.js" async=""></script>
+  <script src="/_next/static/chunks/framework.a6e2e6724b43c3087cff.js" async=""></script>
+  <script src="/_next/static/chunks/commons.4d84f90722542edc5877.js" async=""></script>
+  <script src="/_next/static/runtime/main-2429fc30d3b6f8d34c26.js" async=""></script>
+  <script src="/_next/static/chunks/09980eadb2dc08dfb4d525589fc7f3936b2b0aee.b6debc638ea87dcb4365.js" async=""></script>
+  <script src="/_next/static/chunks/8d35fa9a6eae5187a238edf4d788947d9f2be447.4d924386a4ffd3ec9e5d.js" async=""</script>
+  <script src="/_next/static/DGaoyKcAic6TDn3MT6kqB/_buildManifest.js" async=""></script>
+  <script src="/_next/static/DGaoyKcAic6TDn3MT6kqB/_ssgManifest.js" async=""></script>
+  </body>
+</html>
